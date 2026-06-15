@@ -29,11 +29,11 @@ cp -r paper-research-skills/paper-proposal-defense ~/.claude/skills/
 ## 使用流程
 
 ```
-| 模块                             | 执行步骤                                                     | 产出文件                                |
-| -------------------------------- | ------------------------------------------------------------ | --------------------------------------- |
-| [SKILL 1] paper-topic-selection  | Step 0：文献检索初始化（强制）Step A：边界定义（时间 / 资源 / 能力 / 规范）Step B：三源并行生成候选题（8-12 个）Step C：四维漏斗筛选（价值 × 创新 × 可行 × 匹配）Step D：题目收敛为可研究问题（RQ）Step E：最小可行性预验证（MVP）Step F：输出一页式定题卡 | 一页式定题卡、References Ledger         |
-| [SKILL 2] paper-novelty-check    | 加载文献台账 → 增量检索 → 去重比对 → 新颖性评估              | 新颖性判定报告、更新后的 Ledger         |
-| [SKILL 3] paper-proposal-defense | 评委视角解读 → 常见问题预回答 → 模拟 Q&A → 风险评估          | 答辩准备清单、48 小时冲刺计划、PPT 大纲 |
+| 模块 | 执行步骤 | 产出文件 |
+|-------|------|---------|
+| `[SKILL 1] paper-topic-selection` | Step 0：文献检索初始化（强制）Step A：边界定义（时间 / 资源 / 能力 / 规范）Step B：三源并行生成候选题（8-12 个）Step C：四维漏斗筛选（价值 × 创新 × 可行 × 匹配）Step D：题目收敛为可研究问题（RQ）Step E：最小可行性预验证（MVP）Step F：输出一页式定题卡 | 一页式定题卡、References Ledger |
+| `[SKILL 2] paper-novelty-check` | 加载文献台账 → 增量检索 → 去重比对 → 新颖性评估 | 新颖性判定报告、更新后的 Ledger |
+| `[SKILL 3] paper-proposal-defense` | 评委视角解读 → 常见问题预回答 → 模拟 Q&A → 风险评估 | 答辩准备清单、48 小时冲刺计划、PPT 大纲 |
 ```
 
 ## 触发示例
